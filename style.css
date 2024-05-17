@@ -1942,6 +1942,15 @@ input[type=range]::-moz-focus-outer {
   background-color: rgb(37 99 235 / var(--tw-bg-opacity));
 }
 
+.bg-img-gradient {
+  background-image: url('./images/pink-gradient.svg'); /* Ruta a la imagen */
+  background-size: cover; /* Cubre el contenedor completamente */
+  background-position: center; /* Centra la imagen en el contenedor */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  height: 100%; /* Altura del contenedor, ajusta según necesites */
+  width: 100%; /* Ancho del contenedor */
+}
+
 .bg-gray-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
